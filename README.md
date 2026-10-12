@@ -4,8 +4,6 @@ Aplicação web de página única (SPA) que consome a [PokéAPI](https://pokeapi
 
 🔗 **Demo online:** https://projeto-pokedex-react-neon.vercel.app
 
-![Captura de tela da Pokédex](docs/screenshot.png)
-
 ## Funcionalidades
 
 - Lista de Pokémon em cards coloridos de acordo com o tipo principal
