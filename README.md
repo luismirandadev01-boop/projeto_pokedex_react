@@ -2,7 +2,7 @@
 
 Aplicação web de página única (SPA) que consome a [PokéAPI](https://pokeapi.co/) para listar Pokémon, buscar por nome ou número e ver os detalhes de cada um.
 
-🔗 **Demo online:** 
+🔗 **Demo online:** https://projeto-pokedex-react-neon.vercel.app
 
 ![Captura de tela da Pokédex](docs/screenshot.png)
 
