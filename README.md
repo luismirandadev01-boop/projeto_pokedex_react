@@ -60,4 +60,4 @@ src/
 
 ## Autor
 
-Luis Gustavo Miranda Feitosa · [LinkedIn] https://linkedin.com/in/luis-gustavo-miranda-feitosa · [GitHub] https://github.com/luismirandadev01-boop
+Luis Gustavo Miranda Feitosa · LinkedIn - https://linkedin.com/in/luis-gustavo-miranda-feitosa · GitHub - https://github.com/luismirandadev01-boop
