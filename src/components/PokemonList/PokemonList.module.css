@@ -1,0 +1,93 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 15px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.loadingMessage{
+  color: #ffcd31;
+}
+
+.notFoundMessage{
+  color:#000;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ffcd31;
+  border-top: 5px solid #050A63;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.errorContainer, .emptyContainer {
+  text-align: center;
+  padding: 40px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 30px 0 10px;
+}
+
+.counter {
+  padding: 6px 18px;
+  background-color: #ffcd31;
+  color: #050A63;
+  border: 2px solid #050A63;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.loadMoreError {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+.loadMoreButton {
+  padding: 12px 30px;
+  background: linear-gradient(to right, #030066, #343199);
+  color: #ffcd31;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.loadMoreButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loadMoreButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

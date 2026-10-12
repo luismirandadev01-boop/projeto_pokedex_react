@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  margin: 20px 0 30px;
+}
+
+.logo{
+  max-width: 1000px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+
+/*
+.title {
+  letter-spacing: 5px;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+*/
